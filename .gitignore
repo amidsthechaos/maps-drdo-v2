@@ -1,0 +1,26 @@
+# ─── GIS data (large, downloaded separately) ────────────────────────────────
+data/*
+!data/README.md
+
+# ─── Backend (Maven / Spring Boot) ──────────────────────────────────────────
+georoute-backend/target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Generated tile cache
+georoute-backend/tile-cache/
+tile-cache/
+
+# ─── Frontend (Angular / Node) ──────────────────────────────────────────────
+georoute-frontend/npm-debug.log*
+
+
+# ─── Offline portable package ───────────────────────────────────────────────
+offline-bundle/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log

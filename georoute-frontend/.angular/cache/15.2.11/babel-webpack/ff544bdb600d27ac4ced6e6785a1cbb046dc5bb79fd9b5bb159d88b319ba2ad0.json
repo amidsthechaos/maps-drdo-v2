@@ -1,0 +1,1 @@
+{"ast":null,"code":"// localhost only — no external services.\nexport const environment = {\n  production: true,\n  apiBaseUrl: 'http://localhost:8080',\n  tileUrl: '/api/tiles/{z}/{x}/{y}.png?v=roads1'\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
