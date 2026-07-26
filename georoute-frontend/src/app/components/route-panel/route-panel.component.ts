@@ -3,7 +3,7 @@ import { MapStateService } from '../../services/map-state.service';
 import { RouteService } from '../../services/route.service';
 import { RouteResult, RoutingAlgorithm } from '../../models/route-result.model';
 
-const ROUTE_COLORS = ['#2F81F7', '#F78166', '#A371F7', '#3FB950', '#39D4C5'];
+const ROUTE_COLORS = ['#2F81F7', '#F78166', '#A371F7', '#2c3e50', '#f1c40f'];
 
 @Component({
   selector: 'app-route-panel',
